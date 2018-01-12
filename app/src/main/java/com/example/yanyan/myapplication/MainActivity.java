@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //821899cec21342c68690f1f9eb034bfb
         setContentView(R.layout.activity_main);
         // com.getui.demo.DemoPushService 为第三方自定义推送服务
         PushManager.getInstance().initialize(this.getApplicationContext(), com.example.yanyan.myapplication.DemoPushService.class);
